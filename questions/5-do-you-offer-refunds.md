@@ -1,5 +1,3 @@
-_Additional TODO list items go here._
-
 ```yaml
 title: Do you offer refunds?
 categories: questions
