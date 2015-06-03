@@ -1,7 +1,7 @@
 ```yaml
 title: Do you offer refunds?
 categories: questions
-tags: billing/accounts
+tags: pre-sale-faqs
 author: kristineds
 github-issue: https://github.com/websharks/comment-mail-kb/issues/5
 ```
