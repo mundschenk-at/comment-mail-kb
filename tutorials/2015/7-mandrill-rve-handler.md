@@ -24,7 +24,7 @@ Mandrill does many things. Inbound Mailbox Routes are but one feature they offer
 
 I suggest using a sub-domain that is specifically for Mandrill; e.g. `mandrill.mysite.com`. This sub-domain needs to exist, so please create it now. You will need to setup MX records in the next step also. So, decide on the domain name that you will use, and add it to your Mandrill account. In this example, I'll choose `mandrill.websharks-inc.com`.
 
-#### Couple of Screenshots (Click to Enlarge)
+**Here are a couple of screenshots (click to enlarge)**
 
 [![2014-11-18_05-28-12](https://cloud.githubusercontent.com/assets/1563559/5088931/ccb7aeda-6ee3-11e4-934c-842b203fc9c3.png)](https://cloud.githubusercontent.com/assets/1563559/5088931/ccb7aeda-6ee3-11e4-934c-842b203fc9c3.png)
 
