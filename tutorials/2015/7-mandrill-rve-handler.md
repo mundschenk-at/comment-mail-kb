@@ -16,6 +16,8 @@ When someone replies to an email notification sent by Comment Mail, the email fi
 
 This feature is intended for intermediate to advanced site owners. It's not a walk-in-the-park, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices, where replying via email is so much easier in many cases.
 
+---
+
 ### 1. Get a Mandrill Account ~ Free!
 
 Mandrill does many things. Inbound Mailbox Routes are but one feature they offer. This feature happens to be free, so all you need at the moment, is just to create a free Mandrill account, skip straight to your Inbound Mailbox Routes and don't worry about the rest for now. You can signup for a free account here: https://mandrill.com/signup/
