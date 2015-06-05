@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/comment-mail-kb/issues/6
 
 The format required for importation is [CSV (Comma Separated Values)](http://en.wikipedia.org/wiki/Comma-separated_values). The importation routine will accept direct CSV input in a textarea provided by Comment Mail™, or you can choose to upload a prepared CSV file. In either case (direct input or file upload) the first line should be a list of columns you're importing; aka: CSV Headers. CSV Column Headers (like each column value that you provide); should be encapsulated by double quotes. Here is a quick example of how this works.
 
-```
+```text
 "post_id", "email", "status"
 "1", "john@example.com", "subscribed"
 "1", "jane@example.com", "subscribed"
