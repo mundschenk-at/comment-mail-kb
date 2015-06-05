@@ -8,13 +8,13 @@ github-issue: https://github.com/websharks/comment-mail-kb/issues/7
 
 ## What is an RVE Handler?
 
-RVE (**Replies via Email**). An RVE Handler is an integration between Comment Mail and another third-party service, such as [Mandrill](http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview). Mandrill becomes your RVE Handler, but the entire process is not completed until it reaches a final integration that is powered by Comment Mail. Where Comment Mail is a WordPress plugin that you've installed on your site.
+RVE (**Replies via Email**). An RVE Handler is an integration between Comment Mail and another third-party service, such as [Mandrill](http://help.mandrill.com/entries/21699367-Inbound-Email-Processing-Overview). Mandrill becomes your RVE Handler, but the entire process is not completed until it reaches a final integration that is powered by Comment Mail. Where Comment Mail is a WP plugin that you've installed on your site, which receives and processes replies.
 
 When someone replies to an email notification sent by Comment Mail, the email first goes to Mandrill, and is then routed back to your installation of WordPress, where Comment Mail receives a Webhook data transmission and processes it accordingly. This makes it possible for Comment Mail to process email replies and convert them into comments in a very reliable way.
 
 ## Steps Required
 
-This feature is intended for intermediate to advanced site owners. It's not a walk-in-the-park, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices, where replying via email is so much easier in many cases.
+This feature is intended for intermediate to advanced site owners; i.e., it's not super-simple, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices; i.e., where replying via email is so much easier in many cases.
 
 ---
 
