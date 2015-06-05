@@ -140,22 +140,29 @@ _[\[back to services list\]](#-services)_
 <a id="-google"></a>
 ## Google SSO Integration
 
-**Step 1.** Visit the Google Developer Console:  
-  https://console.developers.google.com Sign-in or create a new account.
+### Step 1. Visit the Google Developer Console
 
-**Step 2.** Once you're logged-in, click the "Create Project" button.
+See <https://console.developers.google.com>; sign-in or create a new account.
+
+### Step 2. Create a New Project
+
+Once you're logged-in, click the "Create Project" button.
 
 [![2014-11-23_23-52-22](https://cloud.githubusercontent.com/assets/1563559/5162455/ce96ebc6-736b-11e4-9e3c-8651308fd45a.png)](https://cloud.githubusercontent.com/assets/1563559/5162455/ce96ebc6-736b-11e4-9e3c-8651308fd45a.png)
 
-**Step 3.** Google just asks for some basics. You can enter whatever you like. When you're done, click the "Create" button and wait for your new Web App to show up in the list on this page, or for the Project Dashboard page to open automatically.
+Google just asks for some basics. You can enter whatever you like. When you're done, click the "Create" button and wait for your new Web App to show up in the list on this page, or for the Project Dashboard page to open automatically.
 
 [![2014-11-23_23-53-51](https://cloud.githubusercontent.com/assets/1563559/5162471/00a1f322-736c-11e4-8ab2-e03c96fde73f.png)](https://cloud.githubusercontent.com/assets/1563559/5162471/00a1f322-736c-11e4-8ab2-e03c96fde73f.png)
 
-**Step 4.** Once the App (Project) has been created, find the "APIs & Auth" section in the Project Dashboard. Click to edit your "Consent Screen". This is what people will see when your site requests access to their account for the purpose of signing them in automatically. You can tune this in however you like. For now, just enter some of the basics to get a Consent Screen created, so that you can move on to the next step.
+### Step 3. Configure the App (i.e., Project)
+
+Once the App (Project) has been created, find the "APIs & Auth" section in the Project Dashboard. Click to edit your "Consent Screen". This is what people will see when your site requests access to their account for the purpose of signing them in automatically. You can tune this in however you like. For now, just enter some of the basics to get a Consent Screen created, so that you can move on to the next step.
 
 [![2014-11-23_23-57-00](https://cloud.githubusercontent.com/assets/1563559/5162501/77ac6bdc-736c-11e4-9103-973582a070bf.png)](https://cloud.githubusercontent.com/assets/1563559/5162501/77ac6bdc-736c-11e4-9103-973582a070bf.png)
 
-**Step 5.** Now we need to create a new Client ID. Find the "APIs & Auth" section in the Project Dashboard. Click to edit "Credentials", and then choose "Create Client ID".
+### Step 4. Create Client ID for Authentication
+
+Now we need to create a new Client ID. Find the "APIs & Auth" section in the Project Dashboard. Click to edit "Credentials", and then choose "Create Client ID".
 
 You will be asked for a Callback URL, which you can obtain from your Comment Mail™ installation via the WP Dashboard. I'm attaching some screenshots to help you with this part.
 
@@ -165,29 +172,34 @@ You will be asked for a Callback URL, which you can obtain from your Comment Mai
 
 [![2014-11-24_00-04-04](https://cloud.githubusercontent.com/assets/1563559/5162574/6ec1ea96-736d-11e4-99b4-c4aa5e3106d5.png)](https://cloud.githubusercontent.com/assets/1563559/5162574/6ec1ea96-736d-11e4-99b4-c4aa5e3106d5.png)
 
-**Step 6.** The last step is to obtain your oAuth Key/Secret for the Google App (Project), and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
+### Step 5. Obtain oAuth Key/Secret
+
+The last step is to obtain your oAuth Key/Secret for the Google App (Project), and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
 [![2014-11-24_00-06-33](https://cloud.githubusercontent.com/assets/1563559/5162614/fa6cff4a-736d-11e4-811a-86540d65cc7e.png)](https://cloud.githubusercontent.com/assets/1563559/5162614/fa6cff4a-736d-11e4-811a-86540d65cc7e.png)
 
 [![2014-11-24_00-07-51](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)
 
-[\[back to services list\]](#-services)
+_[\[back to services list\]](#-services)_
 
 ---
 
 <a id="-linkedin"></a>
 ## LinkedIn SSO Integration
 
-**Step 1.** Visit the LinkedIn Developer Network:  
-  https://developer.linkedin.com/ Sign-in or create a new account.
+### Step 1. Visit the LinkedIn Developer Network
 
-**Step 2.** Once you're logged-in, click the "Add New Application" link from [this page](https://www.linkedin.com/secure/developer).
+See: <https://developer.linkedin.com/>; sign-in or create a new account.
+
+### Step 2. Create New Application
+
+Once you're logged-in, click the "Add New Application" link from [this page](https://www.linkedin.com/secure/developer).
 
 [![2014-11-24_00-21-43](https://cloud.githubusercontent.com/assets/1563559/5162772/e840410e-736f-11e4-9844-eafdb0309442.png)](https://cloud.githubusercontent.com/assets/1563559/5162772/e840410e-736f-11e4-9844-eafdb0309442.png)
 
-**Step 3.** LinkedIn asks for a whole bunch of information when you create a new App. Not all of these fields are required; and in fact, many of them are unnecessary for what we want to do with LinkedIn here.
+LinkedIn asks for a whole bunch of information when you create a new App. Not all of these fields are required; and in fact, many of them are unnecessary for what we want to do with LinkedIn here.
 
-In this step, LinkedIn will ask for your oAuth 2.0 Callback URL, so it's a good idea to get this ready. You can find this in your Comment Mail™ options from the WP Dashboard. Here is a screenshot to help you out.
+LinkedIn will ask for your oAuth 2.0 Callback URL, so it's a good idea to get this ready. You can find this in your Comment Mail™ options from the WP Dashboard. Here is a screenshot to help you out.
 
 [![2014-11-24_00-31-33](https://cloud.githubusercontent.com/assets/1563559/5162882/7eee10ee-7371-11e4-86d6-79e446f69674.png)](https://cloud.githubusercontent.com/assets/1563559/5162882/7eee10ee-7371-11e4-86d6-79e446f69674.png)
 
@@ -195,7 +207,9 @@ Here is a screenshot of the New App form that has been filled-in already. This s
 
 [![2014-11-24_00-32-04](https://cloud.githubusercontent.com/assets/1563559/5162883/7f1e27b6-7371-11e4-87d7-9d325140606c.png)](https://cloud.githubusercontent.com/assets/1563559/5162883/7f1e27b6-7371-11e4-87d7-9d325140606c.png)
 
-**Step 4.** Once the App has been created, you will be presented with the following screen. The last step is to take your oAuth Key/Secret for the LinkedIn App you just created, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
+### Step 3. Obtain oAuth Key/Secret
+
+Once the App has been created, you will be presented with the following screen. The last step is to take your oAuth Key/Secret for the LinkedIn App you just created, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
 _Note: You may find it tempting to copy/paste the wrong Token/Secret from this page. Please be careful about which set of credentials you use. LinkedIn provides both oAuth 1.0a and 2.0 credentials. The set on the bottom is for oAuth version 1.0a. What you need are the v2.0 credentials on top._
 
@@ -203,4 +217,4 @@ _Note: You may find it tempting to copy/paste the wrong Token/Secret from this p
 
 [![2014-11-24_00-46-00](https://cloud.githubusercontent.com/assets/1563559/5163056/4e3ebcda-7373-11e4-8b95-537d09b13725.png)](https://cloud.githubusercontent.com/assets/1563559/5163056/4e3ebcda-7373-11e4-8b95-537d09b13725.png)
 
-[\[back to services list\]](#-services)
+_[\[back to services list\]](#-services)_
