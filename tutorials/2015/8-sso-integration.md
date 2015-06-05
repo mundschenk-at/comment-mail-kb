@@ -19,7 +19,7 @@ As a convenience, SSO (Single Sign-on) allows commenters (or any user for that m
 
 When a visitor logs in through an SSO service provider, an account is automatically created for them in WordPress (if one does not exist already). These auto-generated WordPress accounts are created using details obtained from an SSO service provider. Such as first name, last name, email address. SSO users receive a default Role; i.e. whatever the default Role is for your site. Normally the [Subscriber Role](http://codex.wordpress.org/Roles_and_Capabilities#Subscriber), but you can change this from your WP General Settings on standard WP installs. WP Multisite Network installs always use the Subscriber Role.
 
-An account created in this way (via SSO) could be logged into like any other WP account (technically), but it will also be connected to the underlying SSO service too. Meaning, a user may simply log into your site in the future w/ the SSO. They won't ever need a username/password that is specific to your site.
+An account created in this way (via SSO) could be accessed like any other WP account, but it will also be connected to the underlying SSO service too. Meaning, a user may simply log into your site in the future w/ the SSO. They won't ever need a username/password that is specific to your site.
 
 ### If somebody logs in with Twitter, Facebook, Google, LinkedIn, etc.; are they associated with a username/password on my site too? If so, how would they log in with those credentials?
 
