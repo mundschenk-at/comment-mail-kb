@@ -10,10 +10,10 @@ As a convenience, SSO (Single Sign-on) allows commenters (or any user for that m
 
 #### In a hurry? Jump to:
 
-- [Twitter](#twitter)
-- [Facebook](#facebook)
-- [Google](#google)
-- [LinkedIn](#linkedin)
+- [Twitter](#-twitter)
+- [Facebook](#-facebook)
+- [Google](#-google)
+- [LinkedIn](#-linkedin)
 
 ## Overview of Single Sign-on (SSO)
 
@@ -41,17 +41,17 @@ Before you start, there are two things that must be configured properly in your 
 
 ---
 
-<a name="services"></a>
+<a id="-services"></a>
 ## SSO Services (oAuth App Keys/Secrets)
 
 This can be the most time-consuming portion of the integration. Please be patient. Plan to spend at least 30 minutes (perhaps even a couple hours) setting all of these up and tuning things in.
 
 In this article I will cover:
 
-- [Twitter](#twitter)
-- [Facebook](#facebook)
-- [Google](#google)
-- [LinkedIn](#linkedin)
+- [Twitter](#-twitter)
+- [Facebook](#-facebook)
+- [Google](#-google)
+- [LinkedIn](#-linkedin)
 
 ### First, A Quick Overview...
 
@@ -61,7 +61,7 @@ Let's get started by integrating with Twitter!
 
 ---
 
-<a name="twitter"></a>
+<a id="-twitter"></a>
 ## Twitter SSO Integration
 
 **Step 1.** Visit the Twitter Application Center:  
@@ -87,11 +87,11 @@ Here are a couple of screenshots to show you an example Twitter App.
 
 [![2014-11-23_23-21-46](https://cloud.githubusercontent.com/assets/1563559/5162166/8ba10698-7367-11e4-8758-a337184e5696.png)](https://cloud.githubusercontent.com/assets/1563559/5162166/8ba10698-7367-11e4-8758-a337184e5696.png)
 
-[\[back to services list\]](#services)
+[\[back to services list\]](#-services)
 
 ---
 
-<a name="facebook"></a>
+<a id="-facebook"></a>
 ## Facebook SSO Integration
 
 **Step 1.** Visit the Facebook Developer Center:  
@@ -117,11 +117,11 @@ Here are a couple of screenshots to show you an example Twitter App.
 
 [![2014-11-23_23-47-39](https://cloud.githubusercontent.com/assets/1563559/5162384/2779e802-736b-11e4-9cc1-930c7f28d62d.png)](https://cloud.githubusercontent.com/assets/1563559/5162384/2779e802-736b-11e4-9cc1-930c7f28d62d.png)
 
-[\[back to services list\]](#services)
+[\[back to services list\]](#-services)
 
 ---
 
-<a name="google"></a>
+<a id="-google"></a>
 ## Google SSO Integration
 
 **Step 1.** Visit the Google Developer Console:  
@@ -155,11 +155,11 @@ You will be asked for a Callback URL, which you can obtain from your Comment Mai
 
 [![2014-11-24_00-07-51](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)
 
-[\[back to services list\]](#services)
+[\[back to services list\]](#-services)
 
 ---
 
-<a name="linkedin"></a>
+<a id="-linkedin"></a>
 ## LinkedIn SSO Integration
 
 **Step 1.** Visit the LinkedIn Developer Network:  
@@ -187,4 +187,4 @@ _Note: You may find it tempting to copy/paste the wrong Token/Secret from this p
 
 [![2014-11-24_00-46-00](https://cloud.githubusercontent.com/assets/1563559/5163056/4e3ebcda-7373-11e4-8b95-537d09b13725.png)](https://cloud.githubusercontent.com/assets/1563559/5163056/4e3ebcda-7373-11e4-8b95-537d09b13725.png)
 
-[\[back to services list\]](#services)
+[\[back to services list\]](#-services)
