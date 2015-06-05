@@ -64,12 +64,14 @@ Let's get started by integrating with Twitter!
 <a id="-twitter"></a>
 ## Twitter SSO Integration
 
-**Step 1.** Visit the Twitter Application Center:  
+### Step 1. Visit the Twitter Application Center:  
   https://apps.twitter.com/ Sign-in or create a new account.
 
-**Step 2.** [Click here to create a new Web App](https://apps.twitter.com/app/new).
+### Step 2. [Click here to create a new Web App](https://apps.twitter.com/app/new).
 
-**Step 3.** You can put whatever you like for each field, but when it asks for your Callback URL, please use the URL provided by Comment Mail™ in your Dashboard. Comment Mail™ also defines this automatically at runtime, but it's good to configure it properly on the Twitter side too.
+### Step 3. Create Twitter Web App
+
+You can put whatever you like for each field, but when it asks for your Callback URL, please use the URL provided by Comment Mail™ in your Dashboard. Comment Mail™ also defines this automatically at runtime, but it's good to configure it properly on the Twitter side too.
 
 Here are a couple of screenshots to show you an example Twitter App.
 
@@ -77,17 +79,21 @@ Here are a couple of screenshots to show you an example Twitter App.
 
 [![2014-11-23_23-12-49](https://cloud.githubusercontent.com/assets/1563559/5162096/49c3c2b6-7366-11e4-99b9-2fe6e9412c6d.png)](https://cloud.githubusercontent.com/assets/1563559/5162096/49c3c2b6-7366-11e4-99b9-2fe6e9412c6d.png)
 
-**Step 4.** Once the App has been created, find the "Settings" tab for your new Twitter App, and pull up the current list of details that you just entered. Here you will find an additional config. option that was not available during initial App creation. This box MUST be checked to allow SSO to work w/ Twitter.
+### Step 4. Configure App Settings
+
+Once the App has been created, find the "Settings" tab for your new Twitter App, and pull up the current list of details that you just entered. Here you will find an additional config. option that was not available during initial App creation. This box MUST be checked to allow SSO to work w/ Twitter.
 
 [![2014-11-23_23-16-01](https://cloud.githubusercontent.com/assets/1563559/5162109/c080680a-7366-11e4-9e95-7d6f26460dcd.png)](https://cloud.githubusercontent.com/assets/1563559/5162109/c080680a-7366-11e4-9e95-7d6f26460dcd.png)
 
-**Step 5.** The last step is to obtain your oAuth Key/Secret for the Twitter App, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
+### Step 5. Obtain oAuth Key/Secret
+
+The last step is to obtain your oAuth Key/Secret for the Twitter App, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
 [![2014-11-23_23-20-03](https://cloud.githubusercontent.com/assets/1563559/5162159/5232795a-7367-11e4-81b9-ffc892645c52.png)](https://cloud.githubusercontent.com/assets/1563559/5162159/5232795a-7367-11e4-81b9-ffc892645c52.png)
 
 [![2014-11-23_23-21-46](https://cloud.githubusercontent.com/assets/1563559/5162166/8ba10698-7367-11e4-8758-a337184e5696.png)](https://cloud.githubusercontent.com/assets/1563559/5162166/8ba10698-7367-11e4-8758-a337184e5696.png)
 
-[\[back to services list\]](#-services)
+_[\[back to services list\]](#-services)_
 
 ---
 
