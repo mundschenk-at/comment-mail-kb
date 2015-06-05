@@ -12,25 +12,25 @@ RVE (**Replies via Email**). An RVE Handler is an integration between Comment Ma
 
 When someone replies to an email notification sent by Comment Mail, the email first goes to Mandrill, and is then routed back to your installation of WordPress, where Comment Mail receives a Webhook data transmission and processes it accordingly. This makes it possible for Comment Mail to process email replies and convert them into comments in a very reliable way.
 
-## Is this Difficult to Set Up?
+## Steps Required
 
 This feature is intended for intermediate to advanced site owners. It's not a walk-in-the-park, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices, where replying via email is so much easier in many cases.
 
-## 1. Get a Mandrill Account ~ Free!
+### 1. Get a Mandrill Account ~ Free!
 
 Mandrill does many things. Inbound Mailbox Routes are but one feature they offer. This feature happens to be free, so all you need at the moment, is just to create a free Mandrill account, skip straight to your Inbound Mailbox Routes and don't worry about the rest for now. You can signup for a free account here: https://mandrill.com/signup/
 
-## 2. Choose a Domain to use w/ Mandrill
+### 2. Choose a Domain to use w/ Mandrill
 
 I suggest using a sub-domain that is specifically for Mandrill; e.g. `mandrill.mysite.com`. This sub-domain needs to exist, so please create it now. You will need to setup MX records in the next step also. So, decide on the domain name that you will use, and add it to your Mandrill account. In this example, I'll choose `mandrill.websharks-inc.com`.
 
-### Couple Screenshots (Click to Enlarge)
+#### Couple of Screenshots (Click to Enlarge)
 
 [![2014-11-18_05-28-12](https://cloud.githubusercontent.com/assets/1563559/5088931/ccb7aeda-6ee3-11e4-934c-842b203fc9c3.png)](https://cloud.githubusercontent.com/assets/1563559/5088931/ccb7aeda-6ee3-11e4-934c-842b203fc9c3.png)
 
 [![2014-11-18_05-32-56](https://cloud.githubusercontent.com/assets/1563559/5088993/64352c92-6ee4-11e4-8190-15d38b0b7bbd.png)](https://cloud.githubusercontent.com/assets/1563559/5088993/64352c92-6ee4-11e4-8190-15d38b0b7bbd.png)
 
-## 3. Creating MX Records
+### 3. Creating MX Records
 
 MX records are for email routing. You will need to click the button that reads, "DNS Settings" and update your DNS records for the domain that you added to your Mandrill account. Mandrill provides you with the MX records that are needed. You just need to create those records for the domain that you decided to use with Mandrill.
 
@@ -40,7 +40,7 @@ _If you're not sure how to change MX records given your current registrar or hos
 
 [![2014-11-18_05-49-28](https://cloud.githubusercontent.com/assets/1563559/5089253/b0be5b04-6ee6-11e4-9321-b78879b73cb5.png)](https://support.google.com/a/topic/1611273)
 
-## 4. Create an Inbound Mailbox Route
+### 4. Create an Inbound Mailbox Route
 
 For the domain that you added to your Mandrill account, find and click the button that reads, "Routes"; as seen in the attached screenshot. This is the most important part, because you need to get the "Route" setup correctly, so that it points to your Comment Mail Webhook that's running on your installation of WordPress.
 
@@ -58,13 +58,13 @@ Map this route to your Mandrill Webhook URL, provided by Comment Mail.
 
 [![2014-11-18_06-17-35](https://cloud.githubusercontent.com/assets/1563559/5089903/b1405ae2-6eea-11e4-995b-c2aa5e12bee0.png)](https://cloud.githubusercontent.com/assets/1563559/5089903/b1405ae2-6eea-11e4-995b-c2aa5e12bee0.png)
 
-## 5. Give your Route to Comment Mail
+### 5. Give your Route to Comment Mail
 
 Tell Comment Mail what address that you chose, and then save your Comment Mail options.
 
 [![2014-11-18_06-35-48](https://cloud.githubusercontent.com/assets/1563559/5092751/0b5fd364-6efe-11e4-830d-5525a209d467.png)](https://cloud.githubusercontent.com/assets/1563559/5092751/0b5fd364-6efe-11e4-830d-5525a209d467.png)
 
-#### Replies via Email are Now Enabled ~ Congrats!
+### Replies via Email are Now Enabled ~ Congrats!
 
 ---
 
