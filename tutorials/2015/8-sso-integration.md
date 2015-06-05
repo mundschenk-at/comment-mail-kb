@@ -64,12 +64,13 @@ Let's get started by integrating with Twitter!
 <a id="-twitter"></a>
 ## Twitter SSO Integration
 
-### Step 1. Visit the Twitter Application Center:  
-  https://apps.twitter.com/ Sign-in or create a new account.
+### Step 1. Visit the Twitter Application Center
 
-### Step 2. [Click here to create a new Web App](https://apps.twitter.com/app/new).
+See: <https://apps.twitter.com/>; sign-in or create a new account.
 
-### Step 3. Create Twitter Web App
+### Step 2. Create Twitter Web App
+
+[Click here to create a new Web App](https://apps.twitter.com/app/new)
 
 You can put whatever you like for each field, but when it asks for your Callback URL, please use the URL provided by Comment Mail™ in your Dashboard. Comment Mail™ also defines this automatically at runtime, but it's good to configure it properly on the Twitter side too.
 
@@ -79,13 +80,13 @@ Here are a couple of screenshots to show you an example Twitter App.
 
 [![2014-11-23_23-12-49](https://cloud.githubusercontent.com/assets/1563559/5162096/49c3c2b6-7366-11e4-99b9-2fe6e9412c6d.png)](https://cloud.githubusercontent.com/assets/1563559/5162096/49c3c2b6-7366-11e4-99b9-2fe6e9412c6d.png)
 
-### Step 4. Configure App Settings
+### Step 3. Configure App Settings
 
 Once the App has been created, find the "Settings" tab for your new Twitter App, and pull up the current list of details that you just entered. Here you will find an additional config. option that was not available during initial App creation. This box MUST be checked to allow SSO to work w/ Twitter.
 
 [![2014-11-23_23-16-01](https://cloud.githubusercontent.com/assets/1563559/5162109/c080680a-7366-11e4-9e95-7d6f26460dcd.png)](https://cloud.githubusercontent.com/assets/1563559/5162109/c080680a-7366-11e4-9e95-7d6f26460dcd.png)
 
-### Step 5. Obtain oAuth Key/Secret
+### Step 4. Obtain oAuth Key/Secret
 
 The last step is to obtain your oAuth Key/Secret for the Twitter App, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
@@ -100,30 +101,39 @@ _[\[back to services list\]](#-services)_
 <a id="-facebook"></a>
 ## Facebook SSO Integration
 
-**Step 1.** Visit the Facebook Developer Center:  
-  https://developers.facebook.com/ Sign-in or create a new account.
+### Step 1. Visit the Facebook Developer Center
 
-**Step 2.** [Click here to create a new Web App](https://developers.facebook.com/quickstarts/?platform=web).
+See: <https://developers.facebook.com/>; sign-in or create a new account.
 
-**Step 3.** Facebook simply asks for some basics initially, you can put whatever you like. Once your new Facebook App has been created, fill in your website URL, and mobile URL. Normally the same thing. Then click "Next".
+### Step 2. Create a New Web App
+
+[Click here to create a new Web App](https://developers.facebook.com/quickstarts/?platform=web)
+
+Facebook simply asks for some basics initially, you can put whatever you like. Once your new Facebook App has been created, fill in your website URL, and mobile URL. Normally the same thing. Then click "Next".
 
 [![2014-11-23_23-35-51](https://cloud.githubusercontent.com/assets/1563559/5162304/1b1cc7e2-736a-11e4-86a8-c917c99ae2b0.png)](https://cloud.githubusercontent.com/assets/1563559/5162304/1b1cc7e2-736a-11e4-86a8-c917c99ae2b0.png)
 
-**Step 4.** It is tempting to click the "Login" option here, but please skip straight to the Developer Dashboard instead, as the integration between Comment Mail™ and Facebook has already been done by us. All we need is just to edit the App a bit, and obtain the Key/Secret for Comment Mail™ to use.
+### Step 3. Move Ahead to Configure Web App
+
+It is tempting to click the "Login" option here, but please skip straight to the Developer Dashboard instead, as the integration between Comment Mail™ and Facebook has already been done by us. All we need is just to edit the App a bit, and obtain the Key/Secret for Comment Mail™ to use.
 
 [![2014-11-23_23-36-47](https://cloud.githubusercontent.com/assets/1563559/5162328/7b67f2a2-736a-11e4-8093-95e2a4f98e1e.png)](https://cloud.githubusercontent.com/assets/1563559/5162328/7b67f2a2-736a-11e4-8093-95e2a4f98e1e.png)
 
-**Step 5.** Add a list of approved domains. Here you should add the domain of the WordPress installation where Comment Mail™ is running; i.e. the domain name for your site.
+### Step 4. Add List of Approved Domains
+
+Here you should add the domain of the WordPress installation where Comment Mail™ is running; i.e. the domain name for your site.
 
 [![2014-11-23_23-37-42](https://cloud.githubusercontent.com/assets/1563559/5162353/bae0cfa8-736a-11e4-9f69-e2d5312a7e89.png)](https://cloud.githubusercontent.com/assets/1563559/5162353/bae0cfa8-736a-11e4-9f69-e2d5312a7e89.png)
 
-**Step 6.** The last step is to obtain your oAuth Key/Secret for the Facebook App, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
+### Step 5. Obtain oAuth Key/Secret
+
+The last step is to obtain your oAuth Key/Secret for the Facebook App, and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
 [![2014-11-23_23-38-20](https://cloud.githubusercontent.com/assets/1563559/5162366/ddd74104-736a-11e4-9183-379aa6a1512e.png)](https://cloud.githubusercontent.com/assets/1563559/5162366/ddd74104-736a-11e4-9183-379aa6a1512e.png)
 
 [![2014-11-23_23-47-39](https://cloud.githubusercontent.com/assets/1563559/5162384/2779e802-736b-11e4-9cc1-930c7f28d62d.png)](https://cloud.githubusercontent.com/assets/1563559/5162384/2779e802-736b-11e4-9cc1-930c7f28d62d.png)
 
-[\[back to services list\]](#-services)
+_[\[back to services list\]](#-services)_
 
 ---
 
