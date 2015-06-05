@@ -8,7 +8,7 @@ github-issue: https://github.com/websharks/comment-mail-kb/issues/8
 
 As a convenience, SSO (Single Sign-on) allows commenters (or any user for that matter) to login with a popular social network account; e.g. Twitter, Facebook, Google, LinkedIn. This feature is highly recommended, but disabled by default; since it requires some work on your part to set things up properly. No worries though, we will walk you through the entire process in this article.
 
-#### In a hurry? Jump to:
+## In a hurry? Jump to:
 
 - [Twitter](#-twitter)
 - [Facebook](#-facebook)
@@ -162,9 +162,7 @@ Once the App (Project) has been created, find the "APIs & Auth" section in the P
 
 ### Step 4. Create Client ID for Authentication
 
-Now we need to create a new Client ID. Find the "APIs & Auth" section in the Project Dashboard. Click to edit "Credentials", and then choose "Create Client ID".
-
-You will be asked for a Callback URL, which you can obtain from your Comment Mail™ installation via the WP Dashboard. I'm attaching some screenshots to help you with this part.
+Now we need to create a new Client ID. Find the "APIs & Auth" section in the Project Dashboard. Click to edit "Credentials", and then choose "Create Client ID". You will be asked for a Callback URL, which you can obtain from your Comment Mail™ installation via the WP Dashboard. I'm attaching some screenshots to help you with this part.
 
 [![2014-11-24_00-00-15](https://cloud.githubusercontent.com/assets/1563559/5162532/e64bc380-736c-11e4-8775-e195371eb160.png)](https://cloud.githubusercontent.com/assets/1563559/5162532/e64bc380-736c-11e4-8775-e195371eb160.png)
 
