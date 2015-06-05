@@ -20,6 +20,8 @@ This feature is intended for intermediate to advanced site owners. It's not a wa
 
 Mandrill does many things. Inbound Mailbox Routes are but one feature they offer. This feature happens to be free, so all you need at the moment, is just to create a free Mandrill account, skip straight to your Inbound Mailbox Routes and don't worry about the rest for now. You can signup for a free account here: https://mandrill.com/signup/
 
+---
+
 ### 2. Choose a Domain to use w/ Mandrill
 
 I suggest using a sub-domain that is specifically for Mandrill; e.g. `mandrill.mysite.com`. This sub-domain needs to exist, so please create it now. You will need to setup MX records in the next step also. So, decide on the domain name that you will use, and add it to your Mandrill account. In this example, I'll choose `mandrill.websharks-inc.com`.
@@ -30,6 +32,8 @@ I suggest using a sub-domain that is specifically for Mandrill; e.g. `mandrill.m
 
 [![2014-11-18_05-32-56](https://cloud.githubusercontent.com/assets/1563559/5088993/64352c92-6ee4-11e4-8190-15d38b0b7bbd.png)](https://cloud.githubusercontent.com/assets/1563559/5088993/64352c92-6ee4-11e4-8190-15d38b0b7bbd.png)
 
+---
+
 ### 3. Creating MX Records
 
 MX records are for email routing. You will need to click the button that reads, "DNS Settings" and update your DNS records for the domain that you added to your Mandrill account. Mandrill provides you with the MX records that are needed. You just need to create those records for the domain that you decided to use with Mandrill.
@@ -39,6 +43,8 @@ _Again, it is best to use a sub-domain that is specifically for Mandrill, so as 
 _If you're not sure how to change MX records given your current registrar or hosting provider, you might take a quick peek at the list that has been compiled by Google. See: https://support.google.com/a/topic/1611273 Obviously, the instructions provided by Google are for Google MX records, but if you're totally lost, finding your current registrar or hosting provider in this list and going by example should help. Instead of using Google MX records, just follow the instructions and then use the MX records provided by Mandrill instead. The screenshot above shows where to find the MX records that are provided by Mandrill._
 
 [![2014-11-18_05-49-28](https://cloud.githubusercontent.com/assets/1563559/5089253/b0be5b04-6ee6-11e4-9321-b78879b73cb5.png)](https://support.google.com/a/topic/1611273)
+
+---
 
 ### 4. Create an Inbound Mailbox Route
 
@@ -58,11 +64,15 @@ Map this route to your Mandrill Webhook URL, provided by Comment Mail.
 
 [![2014-11-18_06-17-35](https://cloud.githubusercontent.com/assets/1563559/5089903/b1405ae2-6eea-11e4-995b-c2aa5e12bee0.png)](https://cloud.githubusercontent.com/assets/1563559/5089903/b1405ae2-6eea-11e4-995b-c2aa5e12bee0.png)
 
+---
+
 ### 5. Give your Route to Comment Mail
 
 Tell Comment Mail what address that you chose, and then save your Comment Mail options.
 
 [![2014-11-18_06-35-48](https://cloud.githubusercontent.com/assets/1563559/5092751/0b5fd364-6efe-11e4-830d-5525a209d467.png)](https://cloud.githubusercontent.com/assets/1563559/5092751/0b5fd364-6efe-11e4-830d-5525a209d467.png)
+
+---
 
 ### Replies via Email are Now Enabled ~ Congrats!
 
