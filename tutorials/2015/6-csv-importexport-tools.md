@@ -16,6 +16,8 @@ The format required for importation is [CSV (Comma Separated Values)](http://en.
 
 _In this example we create two subscriptions. One for `john@example.com` and another for `jane@example.com`. They are both subscribed to all comments/replies on post ID `1` without needing to confirm. The first line is a list of the column we are importing. Each line that follows is a subscription with data matching the column headers (i.e. in the same order as the headers)._
 
+---
+
 ## Importing New Subscriptions
 
 ### Suggested CSV Column Headers
@@ -59,6 +61,8 @@ _In this example we create two subscriptions. One for `john@example.com` and ano
 - `status` One of the following: `unconfirmed`, `subscribed`, `suspended`, or `trashed`. If you omit this column it will default to `unconfirmed`. To auto-confirm an imported subscriber set this to `subscribed`.
 
   _If you omit this (or set it explicitly to `unconfirmed`) and you also check the box during import to "Process Confirmation Emails"; then an email confirmation will be sent for each subscription that is marked with an `unconfirmed` status._
+
+---
 
 ## Mass Updating Existing Subscriptions
 
