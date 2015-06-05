@@ -14,7 +14,7 @@ When someone replies to an email notification sent by Comment Mail, the email fi
 
 ## Steps Required
 
-This feature is intended for intermediate to advanced site owners; i.e., it's not super-simple, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices; i.e., where replying via email is so much easier in many cases.
+This feature is intended for intermediate to advanced site owners; i.e., it's not super-simple, but if you follow these instructions it's not difficult either. Your visitors will thank you for the time you spend here :-) Particularly those who use mobile devices; i.e., replying via email is so much easier.
 
 ---
 
