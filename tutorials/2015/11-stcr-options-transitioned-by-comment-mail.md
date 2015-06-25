@@ -1,5 +1,5 @@
 ---
-title: StCR Options Transitioned by Comment Mail
+title: Subscribe to Comments Reloaded (StCR); which options are picked up by Comment Mail?
 categories: tutorials
 tags: stcr
 author: jaswsinc
@@ -14,7 +14,7 @@ In addition, if you were previously running StCR, you will be prompted by Commen
 
 ---
 
-## Which StCR Options Are Transitioned by Comment Mail?
+## Which StCR Options Are Transitioned?
 
 ### Show Subscription Box?
 
