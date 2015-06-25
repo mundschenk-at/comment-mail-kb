@@ -68,13 +68,13 @@ _You should review each of these options, and be sure to enable Comment Mail :-)
 
 #### CAN-SPAM Compliance Options
 
-- Please see: **Dashboard → Comment Mail → Config. Options → CAN-SPAM Compliance**
+- See: **Dashboard → Comment Mail → Config. Options → CAN-SPAM Compliance**
 - See also: [Understanding CAN-SPAM Compliance in Comment Mail](http://comment-mail.com/kb-article/can-spam-compliance/)
 
 ---
 
 ### Subscribers! — Comment Mail Can Import Subscribers Too
 
-- Please see: **Dashboard → Comment Mail → Config. Options → Import/Export → Subscribe to Comments Reloaded (StCR)**
+- See: **Dashboard → Comment Mail → Config. Options → Import/Export → Subscribe to Comments Reloaded (StCR)**
 
 ![](https://www.filepicker.io/api/file/XVbcGkGHTBWXX0djoxYf#.png)
