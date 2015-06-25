@@ -12,6 +12,8 @@ If you were previously running StCR, you can upgrade to Comment Mail right away.
 
 In addition, if you were previously running StCR, you will be prompted by Comment Mail upon activation. Comment Mail will ask you to begin an import of all of your existing StCR subscribers so that you won't lose any of those important people that establish your fan base.
 
+---
+
 ## Which StCR Options Are Transitioned by Comment Mail?
 
 ### Show Subscription Box?
@@ -73,6 +75,6 @@ _You should review each of these options, and be sure to enable Comment Mail :-)
 
 ### Subscribers! — Comment Mail Can Import Subscribers Too
 
-- Please see: **Dashboard → Comment Mail → Config. Options → Import/Export → StCR Import**
+- Please see: **Dashboard → Comment Mail → Config. Options → Import/Export → Subscribe to Comments Reloaded (StCR)**
 
 ![](https://www.filepicker.io/api/file/XVbcGkGHTBWXX0djoxYf#.png)
