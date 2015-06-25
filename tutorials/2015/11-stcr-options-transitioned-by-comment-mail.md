@@ -1,5 +1,5 @@
 ---
-title: Options in Subscribe to Comments Reloaded (StCR) are Transitioned into Comment Mail
+title: Subscribe to Comments Reloaded (StCR); Settings Imported by Comment Mail Upon Plugin Activation
 categories: tutorials
 tags: stcr
 author: jaswsinc
