@@ -14,7 +14,7 @@ In addition, if you were previously running StCR, you will be prompted by Commen
 
 ---
 
-## Which StCR Options Are Transitioned?
+## Which StCR Options Are Interpreted by Comment Mail?
 
 ### Show Subscription Box?
 
