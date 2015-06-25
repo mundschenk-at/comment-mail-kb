@@ -7,7 +7,7 @@ github-issue: https://github.com/websharks/comment-mail-kb/issues/10
 toc-enable: false
 ---
 
-The [CAN-SPAM Act](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business), is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have you stop emailing them, and spells out tough penalties for violations.
+The [CAN-SPAM Act](http://comment-mail.com/r/can-spam-act/), is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have you stop emailing them, and spells out tough penalties for violations.
 
 ## Among other things, the CAN-SPAM Action requires that:
 
@@ -25,4 +25,5 @@ See: **Dashboard → Comment Mail → Config. Options → CAN-SPAM Compliance**
 
 ---
 
-**See Also:** [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
+- **See Also:** [CAN-SPAM Act of 2003](http://comment-mail.com/r/can-spam-act/)
+- **See Also:** [CAN-SPAM Act: A Compliance Guide for Business](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)
