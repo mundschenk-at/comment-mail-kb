@@ -21,7 +21,7 @@ For these reasons, you should be sure to configure the following in your Comment
 
 See: **Dashboard → Comment Mail → Config. Options → CAN-SPAM Compliance**
 
-![](https://www.filepicker.io/api/file/e7grkTnOTMWgYrf9nKFH#.png)
+![](https://www.filepicker.io/api/file/4QfxvlWZRLGrhIhsxYft#.png)
 
 ---
 
