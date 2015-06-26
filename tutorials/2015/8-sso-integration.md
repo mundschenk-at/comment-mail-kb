@@ -27,18 +27,6 @@ When somebody logs in via Twitter, Facebook, Google, LinkedIn, etc.; there is no
 
 To clarify, when Comment Mail™ auto-generates a WP account for them, they _will_ be assigned a generic username/password that they could log in with via `/wp-login.php` if you wanted them to. Auto-generated usernames/passwords are not very friendly though, and they are not given to the user; as this is not necessary. However, if you choose to look-up their account in your Dashboard (search by name or email address), you could obtain the generic username and reset their generic password yourself; for the purpose of relaying that information to an end-user that wants it. But, again, this is not necessary. The end-user can just continue to log into your site with the SSO service they originally created their account with. They have a generic username/password that is site-specific, but they don't really need it, since they are logging into the site through an SSO provider; i.e. Twitter, Facebook, Google LinkedIn, etc.
 
-## Prerequisites (Basic WP Settings)
-
-Before you start, there are two things that must be configured properly in your WP core configuration. Please review these now and get your site prepared for SSO integration; i.e. before continuing into the next sections of this article.
-
-- In order for SSO to work (i.e. for SSO links to appear in your comment/login forms); your [WP Discussion Settings](http://codex.wordpress.org/Settings_Discussion_Screen) should "require users to be logged-in" before posting a comment. Otherwise, there is no reason to log in to begin with, as you don't require user registration at all. If that's the case, we suggest NOT integrating SSO w/ Comment Mail™. It would not serve any useful purpose in such a scenario.
-
-[![2014-11-23_22-55-57](https://cloud.githubusercontent.com/assets/1563559/5161990/eca883de-7363-11e4-894d-632258f89979.png)](https://cloud.githubusercontent.com/assets/1563559/5161990/eca883de-7363-11e4-894d-632258f89979.png)
-
-- You must also "allow users to register" in your [WP General Settings](http://codex.wordpress.org/Settings_General_Screen). Screenshot below. _Note: WP Multisite Network installs can enable user registration from their Network Settings area._
-
-[![2014-11-23_22-54-34](https://cloud.githubusercontent.com/assets/1563559/5161981/c04cad9c-7363-11e4-914e-6584285b0755.png)](https://cloud.githubusercontent.com/assets/1563559/5161981/c04cad9c-7363-11e4-914e-6584285b0755.png)
-
 ---
 
 <a id="-services"></a>
