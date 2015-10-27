@@ -123,6 +123,18 @@ The last step is to obtain your oAuth Key/Secret for the Facebook App, and give 
 
 _[\[back to services list\]](#-services)_
 
+### Step 6. Add Contact Email
+
+You will need to add a contact email for the Facebook App you just created. Select "Settings" in the left sidebar and provide a valid contact email address.
+
+![screen shot 2015-07-02 at 1 03 52 am](https://cloud.githubusercontent.com/assets/7514953/8613621/a7446826-2713-11e5-8494-cf9f685f2bdb.png)
+
+### Step 7. Put App in Live Mode
+
+Once your Facebook App is configured, you are ready for it to be publicly available. Select "Status & Reviews" in the left sidebar and click "Yes" to enable your app and all of its live features.
+
+![screen shot 2015-07-02 at 1 05 25 am](https://cloud.githubusercontent.com/assets/7514953/8613627/b183d812-2713-11e5-9860-19fd943a59f1.png)
+
 ---
 
 <a id="-google"></a>
