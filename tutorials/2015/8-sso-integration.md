@@ -148,35 +148,35 @@ See <https://console.developers.google.com>; sign-in or create a new account.
 
 Once you're logged-in, click the "Create Project" button.
 
-[![2014-11-23_23-52-22](https://cloud.githubusercontent.com/assets/1563559/5162455/ce96ebc6-736b-11e4-9e3c-8651308fd45a.png)](https://cloud.githubusercontent.com/assets/1563559/5162455/ce96ebc6-736b-11e4-9e3c-8651308fd45a.png)
+[![Google SSO - Create Project](https://cloud.githubusercontent.com/assets/7514953/12504321/277755d8-c117-11e5-9395-f4a012f2c5e6.png)](https://cloud.githubusercontent.com/assets/7514953/12504321/277755d8-c117-11e5-9395-f4a012f2c5e6.png)
 
 Google just asks for some basics. You can enter whatever you like. When you're done, click the "Create" button and wait for your new Web App to show up in the list on this page, or for the Project Dashboard page to open automatically.
 
-[![2014-11-23_23-53-51](https://cloud.githubusercontent.com/assets/1563559/5162471/00a1f322-736c-11e4-8ab2-e03c96fde73f.png)](https://cloud.githubusercontent.com/assets/1563559/5162471/00a1f322-736c-11e4-8ab2-e03c96fde73f.png)
+[![Google SSO - Project Name](https://cloud.githubusercontent.com/assets/7514953/12504486/d946cd2e-c118-11e5-8d83-150e9cf0bf11.png)](https://cloud.githubusercontent.com/assets/7514953/12504486/d946cd2e-c118-11e5-8d83-150e9cf0bf11.png)
 
 ### Step 3. Configure the App (i.e., Project)
 
-Once the App (Project) has been created, find the "APIs & Auth" section in the Project Dashboard. Click to edit your "Consent Screen". This is what people will see when your site requests access to their account for the purpose of signing them in automatically. You can tune this in however you like. For now, just enter some of the basics to get a Consent Screen created, so that you can move on to the next step.
+Once the App (Project) has been created, find the "API Manager" section in the Project Dashboard. Select "Credentials" and click to edit your "OAuth consent screen". This is what people will see when your site requests access to their account for the purpose of signing them in automatically. You can tune this in however you like. For now, just enter some of the basics to get a OAuth Consent Screen created, so that you can move on to the next step.
 
-[![2014-11-23_23-57-00](https://cloud.githubusercontent.com/assets/1563559/5162501/77ac6bdc-736c-11e4-9103-973582a070bf.png)](https://cloud.githubusercontent.com/assets/1563559/5162501/77ac6bdc-736c-11e4-9103-973582a070bf.png)
+[![Google SSO - Consent Screen](https://cloud.githubusercontent.com/assets/7514953/12504533/3cfc6270-c119-11e5-8d09-91dd71dd3866.png)](https://cloud.githubusercontent.com/assets/7514953/12504533/3cfc6270-c119-11e5-8d09-91dd71dd3866.png)
 
 ### Step 4. Create Client ID for Authentication
 
-Now we need to create a new Client ID. Find the "APIs & Auth" section in the Project Dashboard. Click to edit "Credentials", and then choose "Create Client ID". You will be asked for a Callback URL, which you can obtain from your Comment Mail™ installation via the WP Dashboard. I'm attaching some screenshots to help you with this part.
+Now we need to create a new Client ID. Find the "API Manager" section in the Project Dashboard. Click to edit "Credentials", and then choose "New Credentials" and "OAuth client ID". You will be asked for a Callback URL, which you can obtain from your Comment Mail™ installation via the WP Dashboard. I'm attaching some screenshots to help you with this part.
 
-[![2014-11-24_00-00-15](https://cloud.githubusercontent.com/assets/1563559/5162532/e64bc380-736c-11e4-8775-e195371eb160.png)](https://cloud.githubusercontent.com/assets/1563559/5162532/e64bc380-736c-11e4-8775-e195371eb160.png)
+[![Google SSO - Create new Client ID](https://cloud.githubusercontent.com/assets/7514953/12504558/905a6426-c119-11e5-8cf3-026725194143.png)](https://cloud.githubusercontent.com/assets/7514953/12504558/905a6426-c119-11e5-8cf3-026725194143.png)
 
-[![2014-11-24_00-03-21](https://cloud.githubusercontent.com/assets/1563559/5162585/98923dda-736d-11e4-8c2d-a7820c73b040.png)](https://cloud.githubusercontent.com/assets/1563559/5162585/98923dda-736d-11e4-8c2d-a7820c73b040.png)
+[![Google SSO - Callback URL](https://cloud.githubusercontent.com/assets/7514953/12504577/bb469d6c-c119-11e5-86ee-a0554757493c.png)](https://cloud.githubusercontent.com/assets/7514953/12504577/bb469d6c-c119-11e5-86ee-a0554757493c.png)
 
-[![2014-11-24_00-04-04](https://cloud.githubusercontent.com/assets/1563559/5162574/6ec1ea96-736d-11e4-99b4-c4aa5e3106d5.png)](https://cloud.githubusercontent.com/assets/1563559/5162574/6ec1ea96-736d-11e4-99b4-c4aa5e3106d5.png)
+[![Google SSO - Authorized Callback URL](https://cloud.githubusercontent.com/assets/7514953/12504588/d7d312da-c119-11e5-8e3b-ab68a87d7cc3.png)](https://cloud.githubusercontent.com/assets/7514953/12504588/d7d312da-c119-11e5-8e3b-ab68a87d7cc3.png)
 
 ### Step 5. Obtain oAuth Key/Secret
 
 The last step is to obtain your oAuth Key/Secret for the Google App (Project), and give those details to your installation of Comment Mail™. Here are a couple of screenshots to help you with this part.
 
-[![2014-11-24_00-06-33](https://cloud.githubusercontent.com/assets/1563559/5162614/fa6cff4a-736d-11e4-811a-86540d65cc7e.png)](https://cloud.githubusercontent.com/assets/1563559/5162614/fa6cff4a-736d-11e4-811a-86540d65cc7e.png)
+[![Google SSO - Obtain Client ID/Secret Key](https://cloud.githubusercontent.com/assets/7514953/12504601/0b5bb454-c11a-11e5-98c7-77a784103fcd.png)](https://cloud.githubusercontent.com/assets/7514953/12504601/0b5bb454-c11a-11e5-98c7-77a784103fcd.png)
 
-[![2014-11-24_00-07-51](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)](https://cloud.githubusercontent.com/assets/1563559/5162615/fa917384-736d-11e4-9eda-5cbc0eff6467.png)
+[![Google SSO - OAuth Client ID/Secret Key](https://cloud.githubusercontent.com/assets/7514953/12504618/30445528-c11a-11e5-89b5-4234d75221d7.png)](https://cloud.githubusercontent.com/assets/7514953/12504618/30445528-c11a-11e5-89b5-4234d75221d7.png)
 
 _[\[back to services list\]](#-services)_
 
