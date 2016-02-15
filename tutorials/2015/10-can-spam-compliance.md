@@ -19,11 +19,12 @@ The [CAN-SPAM Act](http://comment-mail.com/r/can-spam-act/), is a law that sets 
 
 For these reasons, you should be sure to configure the following in your Comment Mail installation.
 
-See: **Dashboard → Comment Mail → Config. Options → CAN-SPAM Compliance**
+See: **Dashboard → Comment Mail → Config. Options →  Postmaster / Contact Info**
 
 ---
 
-![](https://www.filepicker.io/api/file/fWfXfNiSrqqw3w8M8tNo#.png)
+![Comment Mail Postmaster Contact Info](https://cloud.githubusercontent.com/assets/7514953/13055596/25909ae4-d44b-11e5-83d8-fafa4e73cacf.png)
+
 
 ---
 
