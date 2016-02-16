@@ -23,7 +23,7 @@ See: **Dashboard → Comment Mail → Config. Options →  Postmaster / Contact 
 
 ---
 
-![Comment Mail Postmaster Contact Info](https://cloud.githubusercontent.com/assets/7514953/13084215/816ee21c-d513-11e5-8d02-dfb4ce6c7e84.png)
+![Comment Mail Postmaster Contact Info](https://cloud.githubusercontent.com/assets/7514953/13084884/78c64b84-d516-11e5-96b5-e2174828cf0b.png)
 
 
 
