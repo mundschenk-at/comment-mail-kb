@@ -75,6 +75,41 @@ The 'Reply-To' address should have a domain matching your new MX record, and it 
 
   ![Comment Mail - Configure RVE 'Reply-To' address](https://cloud.githubusercontent.com/assets/1563559/20019196/ee4cebd8-a27f-11e6-90fe-0f4964c26dc0.png)
 
+### Replies via Email are Now Enabled ~ Congrats!
+
+---
+
+## When an RVE Handler is Enabled
+
+- Comment Mail™ will allow replies to comments via email using a special `Reply-To` address that you will need to set up by following the instructions provided in this article. Any other Reply-To address configured elsewhere in Comment Mail will be overridden by the address you configure for an RVE Handler. There are no special exceptions to this. An RVE Handler takes precedence over any other `Reply-To` you configure.
+
+- Replies to comments via email will be functional for all types of notifications sent by Comment Mail (including digest notifications). However, there are a few things worth noting before you enable an RVE Handler.
+
+  - All replies posted via email must be sent to the special `Reply-To` address that you configure. Once you configure a `Reply-To` for an RVE Handler, Comment Mail will automatically set the `Reply-To:` header in all email notifications that it sends. This way when somebody replies to a comment notification, their email program will reply to the address required for replies via email to work properly.
+
+  - The `Reply-To` address that you configure, will serve as a base for Comment Mail to work from. For instance, let's say you choose: `rve@spark.yoursite.com`. This base address will be suffixed automatically (at runtime) with details specific to a particular notification that Comment Mail sends. Ultimately, `rve@spark.yoursite.com` will look like: `rve+332-96-kgjdgxr4ldqpdrgjdgxr@spark.yoursite.com`.
+
+    _In this example, the additional details (following the `+` sign) are there to help Comment Mail route the reply to the proper location, and to provide a means by which to identify the end-user that is posting a reply._
+
+  - For single-comment notifications; i.e. where a subscriber chooses delivery type `asap` (aka: instantly), there is just a single comment in each notification that a subscriber receives. This works best with replies via email, since the `Reply-To:` header (on its own) is enough for everything to work as expected. Someone replying via email need only hit the Reply button in their email program and start typing. Very simple.
+
+  - For multi-comment notifications; i.e. where a subscriber chooses a delivery type that is not `asap` (e.g. `hourly`, `daily`, etc.); there can be more than a single comment in each notification they receive. If there is more than one comment in the notification, instructions will be provided to the end-user explaining how to reply. The special `Reply-To` address is still used in this case. However, they also need to specify which comment they want to reply to. To do this, the end-user must start their reply with a special marker provided by Comment Mail. Again, if there is more than one comment in the notification, instructions will be provided to the end-user explaining how to reply.
+
+  - Comments posted via email are still piped through the same underlying WordPress handler that normal on-site comments go through (i.e. `/wp-comments-post.php`). This means that all of your existing WordPress Discussion Settings (and/or Akismet settings) will still apply to all comments, even if they are posted via email.
+
+    **With one exception.** When an RVE Handler is enabled, any comments posted via email are allowed through without an end-user being logged-in. If your WordPress Discussion Settings require that users be logged-in to post comments, that will be overridden temporarily whenever a reply via email comes through.
+
+    Please note that replies posted via email are generally from confirmed subscribers. Any reply via email that is not from a confirmed subscriber will be forced into moderation by Comment Mail anyway. Otherwise, whatever your current Discussion Settings are configured to allow, will be adhered to for replies via email also.
+
+    For instance, if you require that all comments be moderated, that will continue to be the case for all replies via email. Comment Mail will never approve a comment on it's own. Approval of comments is always determined by your WP Discussion Settings.
+
+  - Any reply via email should include one of two things. A copy of the original quoted notification, or a special `!END` marker. Most email clients will include the original message in an email reply, and this is what Comment Mail will look for. Comment Mail scans the body of the email looking for an original quoted section and strips it out (along with anything below it). If a reply does not include a quoted section when replying to an email notification, an `!END` marker can be used instead.
+
+    When Comment Mail reads `!END`, it will use it as a marker and ignore everything below that line. Everything above `!END` will become the comment reply on your blog. Therefore, you can use the `!END` feature even if you have quoting turned off in your email client.
+
+    If neither of these are found, the reply is still accepted. However, it will be forced into moderation at all times; i.e. you must approve it manually no matter what the rest of your WordPress Discussion Settings say.
+
+
 ----
 
 See also:
