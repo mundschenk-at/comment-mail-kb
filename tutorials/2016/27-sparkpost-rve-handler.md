@@ -21,7 +21,7 @@ This feature is intended for intermediate to advanced site owners; i.e., it's no
 
 ### 1. Get a SparkPost Account ~ Free!
 
-SparkPost does many things but two features, Relay Webhooks and Inbound Domains, make the Comment Mail Replies via Email feature possible. These features happen to be free, so all you need at the moment is to create a free SparkPost account, and create an API key with the Relay Webhooks and Inbound Domains features enabled; you don't need worry about the rest for now. You can signup for a free account here: https://app.sparkpost.com/sign-up
+SparkPost does many things, but two features: Relay Webhooks and Inbound Domains, make the Comment Mail Replies via Email feature possible. These features happen to be free, so all you need at the moment is to create a free SparkPost account, and create an API key with the Relay Webhooks and Inbound Domains features enabled; you don't need worry about the rest for now. You can signup for a free account here: https://app.sparkpost.com/sign-up
 
 ----
 
