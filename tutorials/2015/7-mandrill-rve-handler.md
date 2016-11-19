@@ -18,9 +18,11 @@ This feature is intended for intermediate to advanced site owners; i.e., it's no
 
 ---
 
-### 1. Get a Mandrill Account ~ Free!
+### 1. Get a Mandrill Account
 
-Mandrill does many things. Inbound Mailbox Routes are but one feature they offer. This feature happens to be free, so all you need at the moment, is just to create a free Mandrill account, skip straight to your Inbound Mailbox Routes and don't worry about the rest for now. You can signup for a free account here: https://mandrill.com/signup/
+_**Note: Mandrill is no longer a free service.** When this article was first written, Mandrill was a free service, however this service has since been rolled into MailChimp. Mandrill is now a transactional email API for MailChimp users and there is a cost involved._
+
+Mandrill does many things. Inbound Mailbox Routes are but one feature they offer. Just create a Mandrill account, skip straight to your Inbound Mailbox Routes and don't worry about the rest for now. You can signup for an account here: https://mandrill.com/signup/
 
 ---
 
