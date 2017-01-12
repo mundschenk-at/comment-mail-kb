@@ -11,7 +11,7 @@ slug: testing-comment-mail-in-a-clean-wordpress-installation
 
 Here in the Comment Mail support department, we receive many bug reports that are difficult and/or impossible to reproduce on our side of things. A site owner will write to us and say, _"feature X is not working as expected"_. One of our support reps. will follow-up by testing that specific feature, but the problem doesn't exist on our side. Hmm... what gives? How can that be?
 
-**Reason:** WordPress offers you lots of options! As a site owner you have the ability to mix Comment Mail with other plugins and a theme you like best. So the reason we are unable to reproduce the issue on our side? Your environment is slightly different than ours. Your WordPress installation has different plugins, it has had a different history, and it's probably running with a different theme too.
+**Reason:** WordPress offers you lots of options! As a site owner you have the ability to mix Comment Mail with other plugins and a theme you like best. So the reason we are unable to reproduce the issue on our side? Your environment is slightly different than ours. Your WordPress installation has different plugins, it has had a different history, and it's probably running a different theme too.
 
 As you can imagine, testing every feature of Comment Mail with every possible combination of plugins, and with each and every theme that exists for WordPress — this is nearly impossible. **We need common ground! In fact, [our policy](https://wpsharks.com/support-policy) is that we require it :-)**
 
