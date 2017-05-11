@@ -1,7 +1,7 @@
 ---
 title: Can I create manual subscriptions for accounts that are already part of my user database?
 categories: questions
-tags: pre-sales-faqs
+tags: pre-sale-faqs
 author: renzms
 github-issue: https://github.com/websharks/comment-mail-kb/issues/39
 ---
