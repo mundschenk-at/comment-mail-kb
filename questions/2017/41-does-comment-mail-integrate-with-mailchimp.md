@@ -1,5 +1,5 @@
 ---
-title: Does Comment Mail Integrate with MailChimp?
+title: Does Comment Mail integrate with MailChimp?
 categories: questions
 tags: pre-sale-faqs
 author: renzms
