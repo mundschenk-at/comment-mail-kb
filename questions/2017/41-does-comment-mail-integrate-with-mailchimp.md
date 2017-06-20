@@ -4,6 +4,7 @@ categories: questions
 tags: pre-sale-faqs
 author: renzms
 github-issue: https://github.com/websharks/comment-mail-kb/issues/41
+toc-enable: off
 ---
 
 Yes, Comment Mail currently supports MailChimp. With MailChimp integrated, when users leave a comment, in addition to subscribing to comment notifications they will also be given the option to subscribe to your site's mailing list. This is a powerful, unobtrusive way of inviting users to join your mailing list as they leave a comment or reply.
