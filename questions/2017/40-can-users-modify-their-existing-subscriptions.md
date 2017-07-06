@@ -1,6 +1,6 @@
 ---
 toc-enable: off
-title: Can members modify their existing subscriptions?
+title: Can users modify their existing subscriptions?
 categories: questions
 tags: pre-sale-faqs
 author: renzms
